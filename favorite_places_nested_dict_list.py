@@ -11,8 +11,8 @@ favorite_places = {
 }
 #Looping Through the Dictionary Keys
 for keys in favorite_places.keys():
-    fav_places = favorite_places.get('favorite_places')
-    wishlist_places = favorite_places.get('wishlist')
+    fav_places = favorite_places[keys].get('favorite_places')
+    wishlist_places = favorite_places[keys].get('wishlist')
     
     print(f"\n{keys.title()}'s Favorite Places Are:")
     for fav_place in fav_places: #Looping through the list values inside nested 'favorite_places' Key
