@@ -4,7 +4,7 @@ favorite_places = {
         'wishlist': ['holland', 'canada'],
     },
     'michael' : {
-        'favorite_places': ['red light district', 'thailand'],
+        'favorite_places': ['sweden', 'thailand'],
         'wishlist': ['germany', 'italy'],
     }
 }
